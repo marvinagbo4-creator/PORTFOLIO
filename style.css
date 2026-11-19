@@ -1,0 +1,140 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f7f5f0;
+  color: #333333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+header {
+  background-color: #0577ac;
+  color: #ffffff;
+  padding: 15px 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  margin: 0;
+  font-size: 22px;
+}
+
+nav a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 15px;
+  font-size: 15px;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+.card {
+  background-color: #ffffff;
+  border: 1px solid #e0dcd3;
+  border-radius: 8px;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.profile-img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #3b5249;
+}
+
+h2 {
+  color: #2c3e35;
+  margin-top: 5px;
+}
+
+h3 {
+  color: #2235df;
+  margin-bottom: 5px;
+}
+
+.section-number,
+.subtitle,
+.tag {
+  color: #6b705c;
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.buttons {
+  margin: 20px 0;
+}
+.fot{
+    color: #f0ede6;
+}
+
+.btn {
+  background-color: #e28c0b;
+  color: #ffffff;
+  padding: 10px 16px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.btn-outline {
+  border: 1px solid #3b5249;
+  color: #3b5249;
+  padding: 9px 15px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+}
+
+.info-box {
+  background-color: #f0ede6;
+  padding: 15px;
+  border-left: 4px solid #d38e27;
+  border-radius: 4px;
+  margin-top: 20px;
+}
+.Cont {
+    font-weight: bold;
+    font-size: 24px;
+    color: red;
+}
+body {
+ background-image: url("wallpaper.jpg");
+}
+.item {
+  border-top: 1px solid #eeeeee;
+  padding-top: 15px;
+  margin-top: 15px;
+}
+
+footer {
+  text-align: center;
+  padding: 25px;
+  margin-top: 30px;
+  font-size: 14px;
+  color: #666666;
+}
